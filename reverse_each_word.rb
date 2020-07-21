@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
     reversed_word = ""
     while index >= 0 do
       reversed_word + word[index]
-      index -1
+      index -= 1
     end 
     reversed_word
   end
